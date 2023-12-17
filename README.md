@@ -119,7 +119,7 @@ Before undergoing a FedRAMP audit, it's crucial for security teams to ensure tha
 ### Best Practices
 
 1. **Thorough Vendor Assessment:**
-   - **Practice:** Conduct a thorough assessment of vendors and third-party solutions to ensure FedRAMP authorization and compliance with FIPS 140 requirements.
+   - **Practice:** Conduct a thorough assessment of vendors and third-party solutions to ensure FedRAMP authorization and compliance with FIPS 140 requirements. **IMPORTANT** Have tangible PROOF of the 3rd Party assessments, auditors WILL ask for them.
    - **Benefits:** This proactive approach helps avoid challenges during audits, streamlining the validation process and ensuring the use of secure, authorized technologies.
 
 2. **Regular Checks on FedRAMP Marketplace:**
@@ -139,10 +139,19 @@ Before undergoing a FedRAMP audit, it's crucial for security teams to ensure tha
 1. **Inadequate Access Control Implementation:**
    - **Impact:** Unauthorized access or insufficient access controls may compromise sensitive data.
    - **Mitigation:** Implement and regularly review robust access control mechanisms, ensuring proper authentication and authorization processes.
+  
+2. **Inadequate Policies, Procedures, and SSP documentation:**
+   - **Impact:** This WILL result in atleast a "low" finding and SSP deferential that will be documented on the RET (Risk Exposure Table)
+   - **Mitigation:** Hire COMPETENT technical writers who will use the NIST 800-53 guidelines as a documentation bible when crafting documentation. Always REVIEW, REVIEW, REVIEW. A good FedRAMP auditor will review the SSP and cross reference that with the policy and procedure documentation. For example, if you store your documentation in a secured Google Drive folder, and that is documented in your SSP, but in your Policies and Procedures, it says they are stored in JIRA... THAT IS A FINDING!
+     
 
 #### Best Practice
 1. **Role-Based Access Control (RBAC) Implementation:**
    - **Benefits:** Adopt RBAC to ensure users have the necessary access privileges based on their roles, reducing the risk of unauthorized access.
+  
+2. **Hire a Consultant**
+   - FedRAMP is a daunting task fraught with dry and sometimes cryptic reference materials that unless you worked in government your whole life, are hard to understand. Hire a consultant who knows EXACTLY what auditors looking for and what FedRAMP PMO cares about. 
+ 
 
 ### Audit and Accountability (AU)
 
