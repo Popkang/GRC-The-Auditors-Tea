@@ -82,7 +82,7 @@ Before undergoing a FedRAMP audit, it's crucial for security teams to ensure tha
 ### How to Check CMVP Codes
 
 1. **Visit the CMVP Website:**
-   - Go to the [CMVP website](https://csrc.nist.gov/projects/cryptographic-module-validation-program) to access the list of validated cryptographic modules.
+   - Go to the Visit the [CMVP Website](https://csrc.nist.gov/Projects/cryptographic-module-validation-program/validated-modules/search) to check the status of your validated cryptographic modules.
 
 2. **Search for Your Module:**
    - Utilize the search functionality to find your cryptographic module by name, version, or other relevant details.
