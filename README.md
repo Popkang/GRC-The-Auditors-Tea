@@ -196,18 +196,41 @@ Before undergoing a FedRAMP audit, it's crucial for security teams to ensure tha
 #### Best Practice
 5. **Use of Strong Encryption Algorithms:**
    - **Benefits:** Employ strong encryption algorithms to protect data during transmission, reducing the risk of unauthorized interception.
+  
+ ## Access Control for Remote Access (RA-5) Challenges (***EXTENDED DESERVES IT'S OWN SECTION***)
+
+### Challenge 1: Inadequate Authentication Mechanisms
+
+- **Description:** Remote access systems may suffer from weak or inadequate authentication mechanisms, increasing the risk of unauthorized access.
+- **Impact:** Unauthorized users gaining access to sensitive information or systems. Auditors want you to PROVE how your solution PREVENTS this. A good auditor will have you do a live walk-through of this as well as have a pentest team evaluate.
+- **Mitigation:** Implement strong authentication mechanisms such as multi-factor authentication (MFA) to enhance the security of remote access.
+
+### Challenge 2: Insufficient Monitoring of Remote Access Sessions
+
+- **Description:** Lack of effective monitoring for remote access sessions may lead to delayed detection of unauthorized activities.
+- **Impact:** Increased risk of unauthorized access and potential security incidents going unnoticed.
+- **Mitigation:** Implement real-time monitoring and alerting for remote access sessions, ensuring prompt detection of suspicious activities.
+
+### Challenge 3: Weak Encryption Protocols for Remote Access
+
+- **Description:** The use of weak or outdated encryption protocols in remote access solutions poses a security risk.
+- **Impact:** Increased vulnerability to eavesdropping and unauthorized interception of sensitive data during remote access sessions.
+- **Mitigation:** Ensure the use of strong encryption protocols (e.g., TLS 1.2 or higher) for secure remote access communications.
+
+### Challenge 4: Insufficient User Training and Awareness
+
+- **Description:** Users may lack awareness of secure remote access practices, leading to risky behaviors.
+- **Impact:** Increased likelihood of security incidents due to unintentional user actions.
+- **Mitigation:** Conduct regular user training sessions on secure remote access practices and the importance of following security guidelines.
+
+### Challenge 5: Inconsistent Access Controls Across Remote Access Channels
+
+- **Description:** Inconsistencies in access controls across different remote access channels may result in security gaps.
+- **Impact:** Potential exploitation of inconsistencies to gain unauthorized access.
+- **Mitigation:** Ensure uniform access controls and security measures are applied across all remote access channels, including VPNs and remote desktop solutions.
 
 ---
 
-## Resources
 
-...
-
-
----
-
-## Resources
-
-...
 
 
