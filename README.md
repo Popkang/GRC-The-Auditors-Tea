@@ -100,8 +100,6 @@ Before undergoing a FedRAMP audit, it's crucial for security teams to ensure tha
 
 ---
 
-## Contributing
-
 ...
 
 ## Common Challenges and Best Practices
@@ -131,6 +129,71 @@ Before undergoing a FedRAMP audit, it's crucial for security teams to ensure tha
 3. **Enforce Data Storage Policies:**
    - **Practice:** Enforce policies that strictly dictate the storage of metadata in FedRAMP-authorized environments.
    - **Benefits:** This ensures that sensitive information is stored in secure environments, reducing the risk of non-compliance and potential security breaches.
+  
+
+## Common Challenges and Best Practices by NIST 800-53 Control Families
+
+### Access Control (AC)
+
+#### Challenge
+1. **Inadequate Access Control Implementation:**
+   - **Impact:** Unauthorized access or insufficient access controls may compromise sensitive data.
+   - **Mitigation:** Implement and regularly review robust access control mechanisms, ensuring proper authentication and authorization processes.
+
+#### Best Practice
+1. **Role-Based Access Control (RBAC) Implementation:**
+   - **Benefits:** Adopt RBAC to ensure users have the necessary access privileges based on their roles, reducing the risk of unauthorized access.
+
+### Audit and Accountability (AU)
+
+#### Challenge
+2. **Incomplete Logging and Monitoring:**
+   - **Impact:** Inadequate logging and monitoring may hinder the detection of security incidents.
+   - **Mitigation:** Implement comprehensive logging and monitoring solutions, ensuring coverage of all critical system components.
+
+#### Best Practice
+2. **Regular Log Reviews:**
+   - **Benefits:** Conduct regular reviews of logs to identify and address potential security incidents promptly.
+
+### Configuration Management (CM)
+
+#### Challenge
+3. **Lack of Configuration Baseline Documentation:**
+   - **Impact:** Without proper documentation, it becomes challenging to maintain a secure configuration baseline.
+   - **Mitigation:** Document and regularly update configuration baselines, ensuring compliance with security requirements.
+
+#### Best Practice
+3. **Automated Configuration Management Tools:**
+   - **Benefits:** Utilize automated tools to enforce and maintain secure configurations consistently across the environment.
+
+### Security Assessment and Authorization (CA)
+
+#### Challenge
+4. **Insufficient Security Assessment Documentation:**
+   - **Impact:** Incomplete documentation may lead to gaps in the security assessment process.
+   - **Mitigation:** Develop comprehensive security assessment documentation, including risk assessments and test plans.
+
+#### Best Practice
+4. **Continuous Security Assessment:**
+   - **Benefits:** Implement continuous security assessments to identify and address vulnerabilities proactively.
+
+### System and Communications Protection (SC)
+
+#### Challenge
+5. **Unencrypted Data Transmission:**
+   - **Impact:** Transmitting sensitive data without encryption poses a significant security risk.
+   - **Mitigation:** Ensure encryption protocols are implemented for data transmission in accordance with security requirements.
+
+#### Best Practice
+5. **Use of Strong Encryption Algorithms:**
+   - **Benefits:** Employ strong encryption algorithms to protect data during transmission, reducing the risk of unauthorized interception.
+
+---
+
+## Resources
+
+...
+
 
 ---
 
