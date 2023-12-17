@@ -104,3 +104,38 @@ Before undergoing a FedRAMP audit, it's crucial for security teams to ensure tha
 
 ...
 
+## Common Challenges and Best Practices
+
+### Challenges
+
+1. **Non-FedRAMP Approved Solutions:**
+   - **Challenge:** Companies often make the mistake of using non-FedRAMP approved solutions within their federal cloud environment.
+   - **Impact:** This poses a significant challenge during audits as auditors are required to verify that all technology used meets FIPS 140 requirements and currently holds a FedRAMP authorization.
+   - **Mitigation:** Ensure that all software, including third-party solutions like Atlassian/Jira, used in the federal cloud environment is listed in the FedRAMP Marketplace and holds current FedRAMP authorizations.
+
+2. **Storage of Metadata in Non-FedRAMP Authorized Environments:**
+   - **Challenge:** There is a concern among auditors regarding the storage of metadata in non-FedRAMP authorized environments.
+   - **Impact:** Storing metadata in non-authorized environments may compromise the overall security posture of the federal cloud infrastructure.
+   - **Mitigation:** Implement strict controls to ensure that metadata, including but not limited to user data, configurations, and logs, is stored in FedRAMP-authorized environments to maintain compliance and data security.
+
+### Best Practices
+
+1. **Thorough Vendor Assessment:**
+   - **Practice:** Conduct a thorough assessment of vendors and third-party solutions to ensure FedRAMP authorization and compliance with FIPS 140 requirements.
+   - **Benefits:** This proactive approach helps avoid challenges during audits, streamlining the validation process and ensuring the use of secure, authorized technologies.
+
+2. **Regular Checks on FedRAMP Marketplace:**
+   - **Practice:** Establish a process for regular checks on the FedRAMP Marketplace to verify the authorization status of all technologies and services used in the federal cloud environment.
+   - **Benefits:** By staying informed about the authorization status, you can address potential issues promptly and maintain a FedRAMP-compliant infrastructure.
+
+3. **Enforce Data Storage Policies:**
+   - **Practice:** Enforce policies that strictly dictate the storage of metadata in FedRAMP-authorized environments.
+   - **Benefits:** This ensures that sensitive information is stored in secure environments, reducing the risk of non-compliance and potential security breaches.
+
+---
+
+## Resources
+
+...
+
+
