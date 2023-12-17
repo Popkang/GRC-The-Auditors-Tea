@@ -65,3 +65,42 @@ Contributions are welcome! If you have suggestions or improvements, please open 
 
 This documentation is licensed under the [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
 
+# FedRAMP Audit Basics
+
+...
+
+## Resources
+
+- [FedRAMP Official Website](https://www.fedramp.gov/)
+- [NIST Special Publication 800-53](https://csrc.nist.gov/publications/detail/sp/800-53/rev-5/final)
+- [Cryptographic Module Validation Program (CMVP) Codes](#cryptographic-module-validation-program-cmvp-codes)
+
+## Cryptographic Module Validation Program (CMVP) Codes
+
+Before undergoing a FedRAMP audit, it's crucial for security teams to ensure that their cryptographic modules comply with the necessary standards. The CMVP provides validation for cryptographic modules used in federal information systems. Trust me, senior FedRAMP auditors WILL CHECK! So it's a good idea to give those CMVP's a good check!
+
+### How to Check CMVP Codes
+
+1. **Visit the CMVP Website:**
+   - Go to the [CMVP website](https://csrc.nist.gov/projects/cryptographic-module-validation-program) to access the list of validated cryptographic modules.
+
+2. **Search for Your Module:**
+   - Utilize the search functionality to find your cryptographic module by name, version, or other relevant details.
+
+3. **Verify Validation Status:**
+   - Ensure that your cryptographic module is listed and has a current validation status. Pay attention to any relevant security algorithms and requirements.
+
+4. **Check for Expiry Dates:**
+   - Verify the expiration dates of the cryptographic module validations. Ensure that your modules are validated within the timeframe required for your FedRAMP audit.
+
+### Why CMVP Validation is Important for FedRAMP Audits
+
+- **Compliance Assurance:** CMVP validation ensures that cryptographic modules meet the required security standards, contributing to overall compliance with FedRAMP security controls.
+- **Risk Mitigation:** Validated cryptographic modules help mitigate risks associated with cryptographic operations, providing a foundation for a secure cloud environment.
+
+---
+
+## Contributing
+
+...
+
