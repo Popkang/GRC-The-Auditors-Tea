@@ -17,6 +17,7 @@ Welcome to the FedRAMP Audit Basics documentation. This guide provides an introd
 - [Resources](#resources)
 - [Contributing](#contributing)
 - [License](#license)
+- [Example SRTM](#example-srtm-for-auditors)
 
 ## What is FedRAMP?
 
