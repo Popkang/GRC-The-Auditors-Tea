@@ -1,10 +1,13 @@
-# GRC - The Auditors Tea
-Information about Governance, Risk and Compliance topics
-# FedRAMP Audit Basics
+Cloud Security & GRC Portfolio
 
-## Overview
+This repository demonstrates hands-on experience in:
+- AWS cloud security architecture (in progress - AWS SAA)
+- FedRAMP / NIST 800-53 control implementation
+- Compliance automation and evidence collection
+- Risk management and continuous monitoring
+- AI security governance and risk frameworks
 
-Welcome to the FedRAMP Audit Basics documentation. This guide provides an introduction to the fundamental concepts and processes involved in a FedRAMP (Federal Risk and Authorization Management Program) audit.
+Each project reflects real-world scenarios including audit readiness, control validation, and security operations alignment.
 
 ## Table of Contents
 
