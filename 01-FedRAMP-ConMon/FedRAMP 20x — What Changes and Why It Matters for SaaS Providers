@@ -32,4 +32,4 @@ SaaS providers that already have strong automation, logging, vulnerability manag
 - Shift focus from “writing a package” to “proving controls continuously”
 
 ## Caveat (important)
-FedRAMP 20x is still in phased pilots, and implementation details may evolve before any government-wide formal process is adopted. :contentReference[oaicite:8]{index=8}
+FedRAMP 20x is still in phased pilots,specifically pilot phase two as of this post,  and implementation details may evolve before any government-wide formal process is adopted. :contentReference[oaicite:8]{index=8}
