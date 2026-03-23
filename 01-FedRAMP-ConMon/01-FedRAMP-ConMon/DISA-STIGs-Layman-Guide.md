@@ -101,12 +101,6 @@ For each STIG rule, classify it as:
 
 The goal is “defensible decisions,” not perfection.
 
----
-
-## How to explain STIGs in interviews (short script)
-“STIGs are DISA’s prescriptive hardening standards for specific technologies. I’ve worked with SRE/engineering teams to translate STIG requirements into enforceable baselines using hardened templates and automation, and to produce audit-ready evidence and documented exceptions without slowing delivery.”
-
----
 
 ## Helpful references (official sources)
 - DISA STIGs: https://public.cyber.mil/stigs/
